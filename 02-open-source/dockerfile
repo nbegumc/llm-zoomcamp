@@ -1,0 +1,4 @@
+FROM ollama/ollama
+
+# Copy the model weights and metadata from the current directory to the image
+COPY .ollama /root/02-open-sources/.ollama
